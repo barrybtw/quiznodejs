@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import axios, { AxiosResponse } from "axios";
 
 export type Result = Question[];
 
@@ -22,7 +22,7 @@ export const Quiz = () => {
   const [score, setScore] = useState<number>(0);
 
   useEffect(() => {
-    axios.get("http://localhost:5000").then((res: any) => {
+    axios.get("http://localhost:5000").then((res: AxiosResponse<Result>) => {
       setQuestions(res.data);
       setLoading(false);
     });

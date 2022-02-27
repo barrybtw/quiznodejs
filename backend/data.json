@@ -1,0 +1,29 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "questionID": "QUESTION0",
+    "options": [
+      { "id": "QUESTION0OPTION0", "answer": "Paris", "isCorrect": true },
+      { "id": "QUESTION0OPTION1", "answer": "Nice", "isCorrect": false },
+      { "id": "QUESTION0OPTION2", "answer": "Marseilles", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the capital of Denmark?",
+    "questionID": "QUESTION1",
+    "options": [
+      { "id": "QUESTION1OPTION0", "answer": "Copenhagen", "isCorrect": true },
+      { "id": "QUESTION1OPTION1", "answer": "Aalborg", "isCorrect": false },
+      { "id": "QUESTION1OPTION2", "answer": "Aarhus", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the capital of Ukraine?",
+    "questionID": "QUESTION2",
+    "options": [
+      { "id": "QUESTION2OPTION0", "answer": "Uk", "isCorrect": false },
+      { "id": "QUESTION2OPTION1", "answer": "Kiev", "isCorrect": true },
+      { "id": "QUESTION2OPTION2", "answer": "Marseilles", "isCorrect": false }
+    ]
+  }
+]
